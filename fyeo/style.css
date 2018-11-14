@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-image: url("https://media.giphy.com/media/72DtXz1K8PTOw/giphy.gif");
+  background-color: #f7de1c;
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #2D2D40;
+  color: #ff0000;
   line-height: 20px;
   margin: 0px auto;
 }
@@ -18,11 +19,12 @@ a, p {
 
 a {
   text-decoration: none;
-  color: #2D2D40;
+  color: #ff0000;
 }
 
 a:hover {
-  color: #70708E;
+  color: green;
+  font-size: 35px;
 }
 
 p {
@@ -44,9 +46,9 @@ p {
 }
 
 .card {
-  background-color: rgb(230, 230, 230);
+  background-color: #21e6c1;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px;
