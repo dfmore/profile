@@ -46,6 +46,7 @@ p {
 }
 
 .card {
+  background-image: url("https://media.giphy.com/media/HlYYLuI3WsAW4/giphy.gif")
   background-color: #21e6c1;
   margin: 0 auto;
   border-radius: 20px;
