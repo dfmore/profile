@@ -7,42 +7,33 @@ body {
   line-height: 20px;
   margin: 0px auto;
 }
-
 h1 {
   font-weight: 400;
 }
-
 a, p {
   font-weight: 300;
 }
-
 a {
   text-decoration: none;
   color: #2D2D40;
 }
-
 a:hover {
   color: #70708E;
 }
-
 p {
   text-align: left;
   padding: 15px;
 }
-
 .profile-pic {
   height: 150px;
 }
-
 .movies-table img {
   width: 200px;
 }
-
 .container {
   /*width: 500px;*/
   margin: 0 auto;
 }
-
 .card {
   background-color: rgb(230, 230, 230);
   margin: 0 auto;
@@ -52,34 +43,27 @@ p {
   padding: 10px;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.15);
 }
-
 .img-circle {
   border-radius: 50%;
 }
-
 .text-center {
   text-align: center;
 }
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
 }
-
 .list-inline {
   padding: 0px;
 }
-
 .bordered {
   border-style: solid;
   border-width: 5px;
   border-color: rgba(0,0,0,0.25);
 }
-
 .movie-img {
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.15);
 }
-
 @media (min-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -97,4 +81,14 @@ p {
   .container {
     width: 400px;
   }
+}
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
 }
